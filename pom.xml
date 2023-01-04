@@ -8,7 +8,7 @@
 	<name>spring3 mvc maven</name>
 
 	<properties>
-		<jdk.version>1.8</jdk.version>
+		<jdk.version>11</jdk.version>
 		<spring.version>3.2.13.RELEASE</spring.version>
 		<jstl.version>1.2</jstl.version>
 	</properties>
@@ -26,12 +26,6 @@
 			<artifactId>jstl</artifactId>
 			<version>${jstl.version}</version>
 		</dependency>
-		<dependency>     
-			<groupId>com.apple</groupId>     
-			<artifactId>AppleJavaExtensions</artifactId>     
-			<version>1.4</version> 
-		</dependency>
-
 	</dependencies>
 
 	<build>
